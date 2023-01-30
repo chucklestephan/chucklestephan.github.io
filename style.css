@@ -1,0 +1,130 @@
+body {
+    background-image: url("img/background.jpg");
+    background-size: contain;
+    background-color: #E0D5C1;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.bookview {
+    max-width: 50%;
+    max-height: 70vh;
+    min-width: 400px;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 10px;
+}
+
+#blood-sweat {
+    background-image: url("img/blood-sweat/background.jpg");
+    border-color: #6B192E;
+}
+
+#growth {
+    background-image: url("img/growth/background.jpg");
+    border-color: #7D6934;
+}
+
+#sep-oct22 {
+    background-image: url("img/sep-oct22/background.jpg");
+    border-color: #656B83;
+}
+
+#book-of-love {
+    background-image: none;
+    background-color: #F3F3F3;
+    border-color: #161616;
+}
+
+#book-of-love-2 {
+    background-image: none;
+    background-color: #EAF1D0;
+    border-color: #701816;
+}
+
+.header-img {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    max-width: 50%;
+}
+
+.page {
+    max-height: 90%;
+    max-width: 40%;
+    padding: 5%;
+}
+
+#more-zines {
+    padding-top: 20px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    max-width: 25%;
+}
+
+.thumbnail img {
+    max-width: 100%;
+}
+
+.arrow {
+    width: 10%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#about-textbox {
+    background-color: #F9F1E4;
+    display: block;
+    width: 60%;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+}
+
+#about-contents img {
+    display: block;
+    margin: auto;
+}
+
+#kittys {
+    width: 10%;
+    height: auto;
+}
+
+p, a {
+    font-size: large;
+}
+
+.hidden {
+    display: none;
+}
