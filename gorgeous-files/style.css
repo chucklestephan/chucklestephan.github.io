@@ -1,0 +1,129 @@
+body {
+    background-image: url("CHIPOTLE_lowcontrast.png");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+
+header div {
+    width: 20%;
+}
+
+#title {
+    width:70%;
+}
+
+header img {
+    width: 700px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin:auto;
+}
+
+#back-button, #gofundme{
+    width 50px;
+    height: auto;
+    max-width: 50%;
+}
+
+#back-button {
+    margin-left: 10px;
+}
+
+#gofundme {
+    margin-right: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+#book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.bookview {
+    max-width: 70%;
+    max-height: 90vh;
+    min-width: 400px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 10px;
+    background-color: #ffffff;
+}
+
+.page {
+    max-height: 90%;
+    max-width: 45%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#howto {
+    width: 20%;
+}
+
+#howto img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.arrow {
+    width: 10%;
+    height: auto;
+    vertical-align: middle;
+    margin: 4px;
+}
+
+#gl-anthology {
+    border-color: #54A27C;
+}
+
+#fairon {
+    border-color: #133165;
+}
+
+#fairon .page {
+    padding: 0%;
+    max-width: 50%;
+}
+
+#more-zines {
+    padding-top: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.thumbnail{
+    width: 250px;
+    height: auto;
+    max-width: 20%;
+}
+
+.hidden {
+    display: none;
+}
+
+.page:hover, .arrow:hover, .thumbnail:hover {
+    cursor:pointer;
+}
