@@ -38,6 +38,13 @@ section{
     border-color: #6B192E;
 }
 
+#unemployment {
+    border-color: #B98339;
+    background-color: #FFFFFF;
+    justify-content: center;
+    max-height: 85vh;
+}
+
 #growth {
     background-image: url("img/growth/background.jpg");
     border-color: #7D6934;
@@ -76,6 +83,12 @@ section{
     max-height: 90%;
     max-width: 40%;
     padding: 5%;
+}
+
+#unemployment .page {
+    max-height: 100%;
+    max-width: 50%;
+    padding: 0%;
 }
 
 #more-zines {
@@ -123,6 +136,32 @@ section{
 
 p, a {
     font-size: large;
+}
+
+.arrow:hover, .thumbnail:hover {
+    cursor:pointer;
+}
+
+.page:hover {
+    cursor: grab;
+}
+
+#bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#bottom a {
+    width: 200px;
+    max-width: 20%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#gorgeouslink {
+    width: 100%;
+    height: auto;
 }
 
 .hidden {
