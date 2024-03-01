@@ -2,7 +2,7 @@
 (function() {
 
   window.addEventListener('load', init);
-  let currentPageNumber = 1;
+  let currentPageNumber = -1;
   let book = 'gl-anthology';
   let numPages = 46;
   let pages;
