@@ -93,8 +93,15 @@ section {
 }
 
 #gl-anthology {
+    
     border-color: #54A27C;
 }
+
+#gl-anthology .page {
+    padding: 0%;
+    max-width: 50%;
+}
+
 
 #fairon {
     border-color: #133165;
