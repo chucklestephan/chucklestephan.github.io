@@ -56,7 +56,7 @@
     thumbs[allTitles.indexOf(title)].classList.add('hidden');
 
     book = title;
-    currentPageNumber = 1; 
+    currentPageNumber = -1; 
     pages[0].src = "gorgeous-files/" + title + "/1.png";
     pages[1].src = "gorgeous-files/" + title + "/2.png";
 
