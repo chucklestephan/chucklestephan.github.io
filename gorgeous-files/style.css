@@ -102,6 +102,16 @@ section {
     max-width: 50%;
 }
 
+#gl2 {
+    
+    border-color: #FF69B4;
+}
+
+#gl2 .page {
+    padding: 0%;
+    max-width: 50%;
+}
+
 
 #fairon {
     border-color: #133165;
