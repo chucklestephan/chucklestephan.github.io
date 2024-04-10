@@ -3,10 +3,10 @@
 
   window.addEventListener('load', init);
   let currentPageNumber = -1;
-  let book = 'gl-anthology';
-  let numPages = 46;
+  let book = 'gl2';
+  let numPages = 36;
   let pages;
-  let allTitles = ['gl-anthology', 'fairon'];
+  let allTitles = ['gl-anthology', 'fairon', 'gl2',];
   let thumbs;
 
   function init() {
@@ -19,8 +19,9 @@
     pages[1].addEventListener('click', nextPage);
 
     thumbs = document.querySelectorAll('.thumbnail');
-    thumbs[0].addEventListener('click', function() {openBook('gl-anthology', 46)});
+    thumbs[0].addEventListener('click', function() {openBook('gl2', 36)});
     thumbs[1].addEventListener('click', function() {openBook('fairon', 18)});
+    thumbs[2].addEventListener('click', function() {openBook('gl-anthology', 46)});  
   }
 
   function prevPage(){
