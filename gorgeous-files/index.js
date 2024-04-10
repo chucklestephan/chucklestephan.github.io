@@ -4,7 +4,7 @@
   window.addEventListener('load', init);
   let currentPageNumber = -1;
   let book = 'gl2';
-  let numPages = 36;
+  let numPages = 34;
   let pages;
   let allTitles = ['gl-anthology', 'fairon', 'gl2',];
   let thumbs;
