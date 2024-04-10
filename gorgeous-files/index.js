@@ -6,7 +6,7 @@
   let book = 'gl2';
   let numPages = 34;
   let pages;
-  let allTitles = ['gl-anthology', 'fairon', 'gl2',];
+  let allTitles = ['gl2','gl-anthology', 'fairon'];
   let thumbs;
 
   function init() {
@@ -17,11 +17,10 @@
     pages[0].addEventListener('click', prevPage);
     arrows[1].addEventListener('click', nextPage);
     pages[1].addEventListener('click', nextPage);
-    arrows[2].addEventListener('click', nextPage);
-    pages[2].addEventListener('click', nextPage);
+
 
     thumbs = document.querySelectorAll('.thumbnail');
-    thumbs[0].addEventListener('click', function() {openBook('gl2', 36)});
+    thumbs[0].addEventListener('click', function() {openBook('gl2', 34)});
     thumbs[1].addEventListener('click', function() {openBook('fairon', 18)});
     thumbs[2].addEventListener('click', function() {openBook('gl-anthology', 46)});  
   }
@@ -31,12 +30,12 @@
         currentPageNumber -= 2;
         pages[0].src = "gorgeous-files/" + book + "/" + currentPageNumber + ".png";
         pages[1].src = "gorgeous-files/" + book + "/" + (currentPageNumber + 1) + ".png";
-              pages[2].src = "gorgeous-files/" + book + "/" + (currentPageNumber + 1) + ".png";
+
     } else {
         currentPageNumber = (numPages - 1);
         pages[0].src = "gorgeous-files/" + book + "/" + (numPages - 1) + ".png";
         pages[1].src = "gorgeous-files/" + book + "/" + (numPages) + ".png";
-      pages[2].src = "gorgeous-files/" + book + "/" + (numPages) + ".png";
+
     }
   }
 
@@ -45,12 +44,12 @@
         currentPageNumber += 2;
         pages[0].src = "gorgeous-files/" + book + "/" + currentPageNumber + ".png";
         pages[1].src = "gorgeous-files/" + book + "/" + (currentPageNumber + 1) + ".png";
-      pages[2].src = "gorgeous-files/" + book + "/" + (currentPageNumber + 1) + ".png";
+     
     } else {
         currentPageNumber = -1;
         pages[0].src = "gorgeous-files/" + book + "/-1.png";
         pages[1].src = "gorgeous-files/" + book + "/0.png";
-      pages[2].src = "gorgeous-files/" + book + "/0.png";
+
     }
   }
 
@@ -66,7 +65,7 @@
     currentPageNumber = -1; 
     pages[0].src = "gorgeous-files/" + title + "/1.png";
     pages[1].src = "gorgeous-files/" + title + "/2.png";
-     pages[2].src = "gorgeous-files/" + title + "/2.png";
+
 
     document.querySelector('.bookview').id = title;
     numPages = pageCount;
