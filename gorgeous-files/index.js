@@ -6,7 +6,7 @@
   let book = 'gl2';
   let numPages = 34;
   let pages;
-  let allTitles = ['gl2','gl-anthology', 'fairon'];
+  let allTitles = ['gl2','fairon','gl-anthology'];
   let thumbs;
 
   function init() {
