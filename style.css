@@ -36,7 +36,7 @@ section{
     border-color: ##570987;
     background-color: ##748500;
     justify-content: center;
-    max-height: 85vh;
+    --max-height: 85vh;
 }
 
 #blood-sweat {
