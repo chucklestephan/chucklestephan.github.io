@@ -33,8 +33,8 @@ section{
     border-width: 10px;
 }
 #unemployment2 {
-    border-color: ##570987;
-    background-color: ##748500;
+    border-color: #748500;
+    background-color: #FFFFFF;
     justify-content: center;
     --max-height: 85vh;
 }
