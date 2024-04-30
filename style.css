@@ -36,7 +36,7 @@ section{
     border-color: #748500;
     background-color: #FFFFFF;
     justify-content: center;
- 
+    max-height: 85vh;
 }
 
 #blood-sweat {
@@ -91,7 +91,7 @@ section{
     padding: 5%;
 }
 
-#unemployment .page {
+#unemployment .page, #unemployment2 .page {
     max-height: 100%;
     max-width: 50%;
     padding: 0%;
