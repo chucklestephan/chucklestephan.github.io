@@ -32,6 +32,12 @@ section{
     border-style: solid;
     border-width: 10px;
 }
+#unemployment2 {
+    border-color: #B98339;
+    background-color: #FFFFFF;
+    justify-content: center;
+    max-height: 85vh;
+}
 
 #blood-sweat {
     background-image: url("img/blood-sweat/background.jpg");
