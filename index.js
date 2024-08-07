@@ -19,7 +19,6 @@
     pages[1].addEventListener('click', nextPage);
 
     thumbs = document.querySelectorAll('.thumbnail');
-    thumbs[0].addEventListener('click', function() {openBook('yadda', 16)});
     thumbs[0].addEventListener('click', function() {openBook('unemployment2', 22)});
     thumbs[1].addEventListener('click', function() {openBook('unemployment', 34)});
     thumbs[2].addEventListener('click', function() {openBook('blood-sweat', 38)});
