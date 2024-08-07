@@ -3,10 +3,10 @@
 
   window.addEventListener('load', init);
   let currentPageNumber = -1;
-  let book = 'yadda';
-  let numPages = 16;
+  let book = 'unemployment2';
+  let numPages = 22;
   let pages;
-  let allTitles = ['yadda','unemployment2','unemployment', 'blood-sweat', 'growth', 'sep-oct22', 'book-of-love', 'book-of-love-2']
+  let allTitles = ['unemployment2','unemployment', 'blood-sweat', 'growth', 'sep-oct22', 'book-of-love', 'book-of-love-2']
   let thumbs;
 
   function init() {
