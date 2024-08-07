@@ -3,10 +3,10 @@
 
   window.addEventListener('load', init);
   let currentPageNumber = -1;
-  let book = 'unemployment2';
-  let numPages = 22;
+  let book = 'yadda';
+  let numPages = 16;
   let pages;
-  let allTitles = ['unemployment2','unemployment', 'blood-sweat', 'growth', 'sep-oct22', 'book-of-love', 'book-of-love-2']
+  let allTitles = ['yadda','unemployment2','unemployment', 'blood-sweat', 'growth', 'sep-oct22', 'book-of-love', 'book-of-love-2']
   let thumbs;
 
   function init() {
@@ -19,6 +19,7 @@
     pages[1].addEventListener('click', nextPage);
 
     thumbs = document.querySelectorAll('.thumbnail');
+    thumbs[0].addEventListener('click', function() {openBook('yadda', 16)});
     thumbs[0].addEventListener('click', function() {openBook('unemployment2', 22)});
     thumbs[1].addEventListener('click', function() {openBook('unemployment', 34)});
     thumbs[2].addEventListener('click', function() {openBook('blood-sweat', 38)});
