@@ -19,14 +19,14 @@
     pages[1].addEventListener('click', nextPage);
 
     thumbs = document.querySelectorAll('.thumbnail');
-    thumbs[0].addEventListener('click', function() {openBook('yadda', 16)});
-    thumbs[1].addEventListener('click', function() {openBook('unemployment2', 24)});
-    thumbs[2].addEventListener('click', function() {openBook('unemployment', 36)});
-    thumbs[3].addEventListener('click', function() {openBook('blood-sweat', 40)});
-    thumbs[4].addEventListener('click', function() {openBook('growth', 14)});
-    thumbs[5].addEventListener('click', function() {openBook('sep-oct22', 42)});
-    thumbs[6].addEventListener('click', function() {openBook('book-of-love-2', 14)});
-    thumbs[7].addEventListener('click', function() {openBook('book-of-love', 18)});
+    thumbs[0].addEventListener('click', function() {openBook('yadda', 14)});
+    thumbs[1].addEventListener('click', function() {openBook('unemployment2', 22)});
+    thumbs[2].addEventListener('click', function() {openBook('unemployment', 34)});
+    thumbs[3].addEventListener('click', function() {openBook('blood-sweat', 38)});
+    thumbs[4].addEventListener('click', function() {openBook('growth', 12)});
+    thumbs[5].addEventListener('click', function() {openBook('sep-oct22', 40)});
+    thumbs[6].addEventListener('click', function() {openBook('book-of-love-2', 12)});
+    thumbs[7].addEventListener('click', function() {openBook('book-of-love', 16)});
   }
 
   function prevPage(){
