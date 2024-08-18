@@ -6,7 +6,7 @@
   let book = 'yadda';
   let numPages = 14;
   let pages;
-  let allTitles = ['yadda','unemployment2','unemployment', 'blood-sweat', 'growth', 'sep-oct22', 'book-of-love-2', 'book-of-love',]
+  let allTitles = ['yadda','unemployment2','unemployment', 'blood-sweat', 'sep-oct22', 'book-of-love-2', 'book-of-love',]
   let thumbs;
 
   function init() {
@@ -23,10 +23,9 @@
     thumbs[1].addEventListener('click', function() {openBook('unemployment2', 22)});
     thumbs[2].addEventListener('click', function() {openBook('unemployment', 34)});
     thumbs[3].addEventListener('click', function() {openBook('blood-sweat', 38)});
-    thumbs[4].addEventListener('click', function() {openBook('growth', 12)});
-    thumbs[5].addEventListener('click', function() {openBook('sep-oct22', 40)});
-    thumbs[6].addEventListener('click', function() {openBook('book-of-love-2', 12)});
-    thumbs[7].addEventListener('click', function() {openBook('book-of-love', 16)});
+    thumbs[4].addEventListener('click', function() {openBook('sep-oct22', 40)});
+    thumbs[5].addEventListener('click', function() {openBook('book-of-love-2', 12)});
+    thumbs[6].addEventListener('click', function() {openBook('book-of-love', 16)});
   }
 
   function prevPage(){
