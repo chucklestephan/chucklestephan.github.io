@@ -57,11 +57,6 @@ section{
     max-height: 85vh;
 }
 
-#growth {
-    background-image: url("img/growth/background.jpg");
-    border-color: #7D6934;
-}
-
 #sep-oct22 {
     background-image: url("img/sep-oct22/background.jpg");
     border-color: #656B83;
