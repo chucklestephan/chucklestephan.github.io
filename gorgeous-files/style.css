@@ -111,7 +111,15 @@ section {
     padding: 0%;
     max-width: 50%;
 }
+#gl3 {
+    
+    border-color: #00FFFF;
+}
 
+#gl3 .page {
+    padding: 0%;
+    max-width: 50%;
+}
 
 #fairon {
     border-color: #133165;
