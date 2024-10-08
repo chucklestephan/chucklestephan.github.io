@@ -138,11 +138,7 @@ section {
 }
 
 
-.thumbnail{
-    width: 250px;
-    height: auto;
-    max-width: 20%;
-}
+
 #bottom {
     display: flex;
     justify-content: flex-start;
@@ -154,6 +150,11 @@ section {
     max-width: 20%;
     padding-top: 20px;
     padding-left: 20px;
+}
+.thumbnail{
+    width: 250px;
+    height: auto;
+    max-width: 20%;
 }
 
 .hidden {
