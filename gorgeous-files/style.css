@@ -135,6 +135,7 @@ section {
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 20px;
+    width: 60%;
 }
 
 
@@ -143,7 +144,7 @@ section {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 60%;
+    
 }
 #bottom a {
     width: 200px;
