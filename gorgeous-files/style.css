@@ -142,6 +142,11 @@ section {
     height: auto;
     max-width: 20%;
 }
+#bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
 .hidden {
     display: none;
