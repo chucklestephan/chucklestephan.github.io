@@ -133,7 +133,7 @@ section {
 #more-zines {
     padding-top: 20px;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     margin-left: 20px;
     width: 80%;
 }
@@ -143,7 +143,7 @@ section {
 #bottom {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 80%;
     
 }
