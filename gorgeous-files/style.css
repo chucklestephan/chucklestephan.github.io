@@ -156,11 +156,7 @@ section {
     max-width: 20%;
 }
 
-.link{
-        width: 250px;
-    height: auto;
-    max-width: 20%;
-}
+
 
 .hidden {
     display: none;
