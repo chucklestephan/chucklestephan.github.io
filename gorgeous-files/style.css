@@ -1,5 +1,5 @@
 body {
-    background-image:"gorgeous-files/brrrt2.png";
+    background-image: url("brrrt2.png");
     background-size: cover;
 }
 
