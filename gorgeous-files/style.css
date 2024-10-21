@@ -26,9 +26,9 @@ header img {
 }
 
 #back-button, #gofundme{
-    width 150px;
+    width: 150px;
     height: auto;
-    max-width:;
+    max-width:50%;
 }
 
 #back-button {
