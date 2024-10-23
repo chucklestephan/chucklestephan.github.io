@@ -32,10 +32,12 @@ header img {
 
 #back-button {
     margin-left: 10px;
+    width: 25%;
 }
 
 #gofundme {
     margin-right: 10px;
+    width: 25%;
 }
 
 section {
