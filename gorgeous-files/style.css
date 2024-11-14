@@ -149,15 +149,15 @@ section {
     
 }
 
-
-
 .thumbnail, .link {
     width: 250px;
     height: auto;
     max-width: 20%;
 }
 
-
+.link img {
+    width: 100%;
+}
 
 .hidden {
     display: none;
