@@ -33,6 +33,12 @@ section{
     border-width: 10px;
 }
 #yadda {
+    border-color: #000000;
+    background-color: #000000;
+    justify-content: center;
+    max-height: 85vh;
+}
+#yadda {
     border-color: #748500;
     background-color: #FFFFFF;
     justify-content: center;
