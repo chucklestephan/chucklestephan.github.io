@@ -6,7 +6,7 @@
   let book = 'homecoming';
   let numPages = 26;
   let pages;
-  let allTitles = ['h','yadda','unemployment2','unemployment', 'blood-sweat', 'sep-oct22', 'book-of-love-2', 'book-of-love',]
+  let allTitles = ['homecoming','yadda','unemployment2','unemployment', 'blood-sweat', 'sep-oct22', 'book-of-love-2', 'book-of-love',]
   let thumbs;
 
   function init() {
