@@ -165,7 +165,7 @@ p, a {
     align-items: flex-start;
 }
 
-#bottom  {
+#bottom a {
     width: 200px;
     max-width: 20%;
     padding-top: 20px;
