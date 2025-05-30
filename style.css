@@ -20,11 +20,7 @@ section{
     margin:35%;
     flex-wrap:wrap;
 }
-div{
-    display: flex;
-    justify-content: center;
-    width:50%;
-}
+
 
 .bookview {
     max-width: 50%;
