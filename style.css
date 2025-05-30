@@ -17,7 +17,8 @@ section{
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
-    margin-sides:25%
+    margin-sides:25%;
+    flex-wrap:wrap;
 }
 div{
     display: flex;
