@@ -2,6 +2,7 @@ body {
     background-image: url("img/brainstorming.jpg");
     background-size: contain;
     background-color: #E0D5C1;
+    overflow-x: hidden;
 }
 
 header {
@@ -21,7 +22,34 @@ section{
   ;
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
 
+.fade-in.appear {
+    opacity:1;
+}
+.from-left{
+    transform: translateX(-50%);
+}
+.from-right{
+    transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+    transition: 
+        opacity 250ms ease-in, 
+        transform 400ms ease-in;
+    opacity:0;
+}
+
+.from-left.appear,
+.from-right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}
 .bookview {
     max-width: 50%;
     max-height: 70vh;
