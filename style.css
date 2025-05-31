@@ -94,6 +94,7 @@ section{
     height: auto;
     width: auto;
     max-width: 50%;
+    min-width:50%;
 }
 
 .page {
