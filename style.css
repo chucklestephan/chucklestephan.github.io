@@ -92,8 +92,8 @@ section{
 
 .logo {
     height: auto;
-   width:50%;
-    align-items: center;
+   width:auto;
+    max-width: 50%;
 }
 
 .page {
