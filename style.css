@@ -92,9 +92,8 @@ section{
 
 .logo {
     height: auto;
-    width: auto;
-    max-width: 50%;
-    min-width:50%;
+   width:50%;
+    align-items: center;
 }
 
 .page {
