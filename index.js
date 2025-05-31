@@ -1,6 +1,7 @@
 'use strict';
 (function() {
 
+  const faders = document.querySelectorAll('.fade-in')
   window.addEventListener('load', init);
   let currentPageNumber = -1;
   let book = 'homecoming';
@@ -68,3 +69,23 @@
     scroll(0,180);
   }
 })();
+
+const appearOptions = {
+  threshold: 1,
+  rootMargin: "0px 0px -100px 0px"
+};
+const appearOnScroll = new IntersectionObserver 
+  (function(entries, appearOnScroll) { entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classlist.add('appear');
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+                                     },
+appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
