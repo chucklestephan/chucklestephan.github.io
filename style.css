@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-bottom: 5px; 
+    padding-bottom: px; 
     
 }
 
@@ -17,7 +17,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: px;
     flex-wrap:wrap;
   ;
 }
