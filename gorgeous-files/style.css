@@ -123,7 +123,7 @@ section {
 }
 #gl4 {
     
-    border-color: #FFFFFF;
+    border-color: 	#000000;
 }
 
 #gl4 .page {
@@ -175,6 +175,7 @@ section {
 .page:hover, .arrow:hover, .thumbnail:hover, .link:hover; {
     cursor:pointer;
 }
+
 
 
 
