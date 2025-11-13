@@ -1,5 +1,5 @@
 body {
-    background-image: url("brrrt222.png");
+    background-image: url("anorther.jpg");
     background-size: cover;
 }
 
@@ -175,4 +175,5 @@ section {
 .page:hover, .arrow:hover, .thumbnail:hover, .link:hover; {
     cursor:pointer;
 }
+
 
