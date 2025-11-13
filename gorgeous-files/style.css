@@ -121,6 +121,15 @@ section {
     padding: 0%;
     max-width: 50%;
 }
+#gl4 {
+    
+    border-color: #008080;
+}
+
+#gl4 .page {
+    padding: 0%;
+    max-width: 50%;
+}
 
 #fairon {
     border-color: #133165;
@@ -166,3 +175,4 @@ section {
 .page:hover, .arrow:hover, .thumbnail:hover, .link:hover; {
     cursor:pointer;
 }
+
