@@ -6,7 +6,7 @@
   let book = 'homecoming';
   let numPages = 30;
   let pages;
-  let allTitles = ['homecoming','yadda','unemployment2','unemployment', 'sep-oct22', 'book-of-love-2', 'book-of-love',]
+  let allTitles = ['homecoming','yadda','unemployment2', 'sep-oct22', 'book-of-love-2', 'book-of-love',]
   let thumbs;
 
   function init() {
@@ -22,10 +22,9 @@
     thumbs[0].addEventListener('click', function() {openBook('homecoming', 30)});
     thumbs[1].addEventListener('click', function() {openBook('yadda', 14)});
     thumbs[2].addEventListener('click', function() {openBook('unemployment2', 22)});
-    thumbs[3].addEventListener('click', function() {openBook('unemployment', 34)});
-    thumbs[4].addEventListener('click', function() {openBook('sep-oct22', 40)});
-    thumbs[5].addEventListener('click', function() {openBook('book-of-love-2', 12)});
-    thumbs[6].addEventListener('click', function() {openBook('book-of-love', 16)});
+    thumbs[3].addEventListener('click', function() {openBook('sep-oct22', 40)});
+    thumbs[4].addEventListener('click', function() {openBook('book-of-love-2', 12)});
+    thumbs[5].addEventListener('click', function() {openBook('book-of-love', 16)});
   }
 
   function prevPage(){
@@ -67,4 +66,5 @@
     scroll(0,180);
   }
 })();
+
 
