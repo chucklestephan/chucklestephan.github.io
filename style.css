@@ -1,6 +1,7 @@
 body {
     background-image: url("img/pretty (1).jpg");
-    background-size: contain;
+    background-size: ;
+    background-repeat: repeat;
     background-color: #E0D5C1;
     overflow-x: hidden;
 }
@@ -195,6 +196,7 @@ p, a {
 .hidden {
     display: none;
 }
+
 
 
 
