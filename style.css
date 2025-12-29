@@ -125,9 +125,10 @@ section{
 }
 .thumbnailtoo {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-        justify-content: space-between;
-    align-items: flex-center;
+        justify-content: center;
+    align-items: flex-start;
     width: 500px;
     height: auto;
     max-width: 100%;
@@ -194,6 +195,7 @@ p, a {
 .hidden {
     display: none;
 }
+
 
 
 
