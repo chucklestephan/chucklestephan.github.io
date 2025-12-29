@@ -22,34 +22,7 @@ section{
   ;
 }
 
-.fade-in {
-    opacity: 0;
-    transition: opacity 250ms ease-in;
-}
 
-.fade-in.appear {
-    opacity:1;
-}
-.from-left{
-    transform: translateX(-50%);
-}
-.from-right{
-    transform: translateX(50%);
-}
-
-.from-left,
-.from-right {
-    transition: 
-        opacity 250ms ease-in, 
-        transform 400ms ease-in;
-    opacity:0;
-}
-
-.from-left.appear,
-.from-right.appear {
-    transform: translateX(0);
-    opacity: 1;
-}
 .bookview {
     max-width: 50%;
     max-height: 70vh;
@@ -153,9 +126,11 @@ section{
 .thumbnailtoo {
     display: flex;
     flex-direction: column;
-    width: ;
+        justify-content: space-between;
+    align-items: flex-start;
+    width: 500px;
     height: auto;
-    max-width: 25%;
+    max-width: 75%;
 }
 
 .thumbnail img {
@@ -219,5 +194,6 @@ p, a {
 .hidden {
     display: none;
 }
+
 
 
